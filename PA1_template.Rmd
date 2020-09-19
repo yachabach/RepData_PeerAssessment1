@@ -72,7 +72,7 @@ dfMax <- dfIntervals[which.max(dfIntervals$MeanSteps),]
 dfMax
 ```
 
-The maximum number of mean steps is `r round(dfMax$MeanSteps)` occurring on the 'r dfMax$interval` interval.  
+The maximum number of mean steps is `r round(dfMax$MeanSteps)` occurring on the `r dfMax$interval` interval.  
 
 ## Imputing missing values
 
